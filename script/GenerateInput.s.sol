@@ -11,7 +11,7 @@ contract GenerateInput is Script {
     string[] types = new string[](2);
     uint256 count;
     string[] whitelist = new string[](4);
-    string private constant  INPUT_PATH = "/script/target/input.json";
+    string private constant INPUT_PATH = "/script/target/input.json";
     
     function run() public {
         types[0] = "address";
